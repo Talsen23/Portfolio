@@ -1,0 +1,435 @@
+body {
+	
+	height: 100%;
+	width: 100%;
+	background: url(https://images.unsplash.com/photo-1559377240-b8e6053b6544?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-size: auto 1500px;
+	background-position: 80% -100%; 
+	font-family: Lato;
+	backdrop-filter: blur(2px);
+	position: relative;
+	background-attachment: fixed;
+}
+
+.intro {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	max-width: 650px;
+	text-align: center;
+	align-content: center;
+	background-color: rgba(57,62,70,0.5);
+}
+
+.intro-text {
+	opacity: 100%;
+	color: #eeeeee;
+}
+
+.intro-text span{
+	color: #00adb5;
+}
+
+.intro button {
+	margin-top: 40px;
+	opacity: 100%
+}
+
+.header-bar {
+	background-color: black;
+	height: 4px;
+	width: 90px;
+	margin-bottom: 100px;
+}
+
+.bg-dark {
+	background-color: #222831!important;
+}
+
+
+/* ------------------------------------------*/
+/* ABOUT SECTION */
+/* ------------------------------------------*/
+
+.about-section {
+	background-color: #eeeeee;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	text-align: center;
+	padding-bottom: 150px;	
+	align-items: center;
+}
+.about-title {
+	width: 100%;
+	padding-top: 150px;
+	justify-content: center;
+	margin: 0 0 0px;
+}
+
+.about-icons .col-md-6 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.icon-shape {
+	background-color: #00adb5;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.icon-shape i {
+	font-size: 45px;
+	padding-top: 30px;
+	color: white;
+}
+
+
+/* ------------------------------------------*/
+/* ME SECTION */
+/* ------------------------------------------*/
+
+.me-section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #c3baba;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.me-section .self-photo {
+	max-width: 300px;
+	padding-bottom: 20px;
+	clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.lang {
+	padding-top: 50px;
+}
+
+.lang-shape {
+	margin-bottom: 10px;
+}
+
+.java-shape img {
+	border-radius: 18px;
+}
+
+#about-me-blurb {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/* ------------------------------------------*/
+/* PORTFOLIO SECTION */
+/* ------------------------------------------*/
+
+.portfolio-section {
+	background-color: #eeeeee;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.portfolio-title {
+	width: 100%;
+	padding-top: 100px;
+	justify-content: center;
+	margin: 0 0 0px;
+}
+
+.card {
+	border-radius: 4px;
+	background-color: #fff;
+	box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+	transition: .3s transform cubic-bezier(.155,1.105,.295,1.2), .3s box-shadow, .3s;
+	cursor: pointer;
+	margin: 20px 10px 10px 10px;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-img {
+	height: 200px;
+	width: 100%;
+}
+
+/* ------------------------------------------*/
+/* Contact SECTION */
+/* ------------------------------------------*/
+
+.contact-section {
+	background-color: #c3baba;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	text-align: center;
+	padding-bottom: 100px;
+	display: inline-grid;
+	justify-content: center;
+}
+.contact-title {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	justify-content: center;
+	margin: 0 0 0px;
+}
+.contact-container {
+	text-align: center;
+	justify-content: center;
+	border: 1px solid;
+	
+	max-width: 800px;
+	background-color: white;
+}
+
+.status {
+	color: red;
+}
+
+.contact-p1,
+.contact-p2 {
+	margin-top: 150px;
+}
+
+.contact-p2 {
+	align-items: center;
+	display: flex;
+	font-size: 20px;
+}
+
+.contact-p2 i {
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+#contact-wrapper {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/* ------------------------------------------*/
+/* FOOTER */
+/* ------------------------------------------*/
+
+.footer {
+	background-color: #222831;
+	padding: 50px;
+	font-size: 80%;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.footer-nav {
+	list-style: none;
+	float: left;
+}
+
+.footer-content {
+	align-items: center;
+}
+
+.social-links {
+	list-style: none;
+	float: right;
+}
+
+.footer-nav li,
+.social-links li {
+	display: inline-block;
+	margin-right: 20px; 
+
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+	margin: 0; 
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+	text-decoration: none;
+	border: 0;
+	color: #888;
+	transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+	color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	font-size: 160%;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-instagram {
+	transition: color 0.2s;
+}
+
+.fa-facebook:hover {
+	color: #3b5998;
+}
+
+.fa-linkedin:hover {
+	color: #00aced;
+}
+
+.fa-instagram:hover {
+	color: #517fa4;
+}
+
+footer p {
+	color: #888;
+	text-align: center;
+	
+}
+
+/* ------------------------------------------*/
+/* Animations */
+/* ------------------------------------------*/
+
+.basic-waypoint {
+	opacity: 0;
+}
+
+.basic-waypoint.animate {
+	opacity: 1;
+}
+
+.icon-waypoint {
+	opacity: 0;
+}
+
+.icon-p-waypoint {
+	opacity: 0;
+}
+
+.me-l-waypoint {
+	opacity: 0;
+}
+
+.me-r-waypoint {
+	opacity: 0;
+}
+
+.portfolio-waypoint {
+	opacity: 0;
+}
+
+.portfolio-project-waypoint {
+	opacity: 0;
+}
+
+
+
+
+/* ------------------------------------------*/
+/* SCREEN SIZES */
+/* ------------------------------------------*/
+
+
+
+
+@media screen and (min-width: 1201px){
+
+	.about-section {
+		padding-left: 180px;
+		padding-right: 180px;
+	}
+
+	.portfolio-section {
+		padding-left: 180px;
+		padding-right: 180px;
+	}
+
+	.card {
+		width: 18rem;
+	}
+
+}
+
+
+@media screen and (max-width: 1250px){
+
+	.about-section {
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+
+	.portfolio-section {
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+
+	.card {
+		width: 15rem;
+	}
+
+}
+
+@media screen and (max-width: 900px){
+	.card {
+		width: 18rem;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+
+	.about-section {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+	.portfolio-section {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+	.card {
+		width: 22rem;
+	}
+}
+
+@media screen and (max-width: 576px){
+
+	.about-section {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.portfolio-section {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.card {
+		width: 22rem;
+	}
+
+}
