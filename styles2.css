@@ -288,7 +288,7 @@ body {
 
 .fa-facebook,
 .fa-linkedin,
-.fa-instagram {
+.fa-github {
 	transition: color 0.2s;
 }
 
@@ -300,7 +300,7 @@ body {
 	color: #00aced;
 }
 
-.fa-instagram:hover {
+.fa-github:hover {
 	color: #517fa4;
 }
 
