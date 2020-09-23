@@ -417,7 +417,7 @@ footer p {
 	}
 
 	.card {
-		width: 22rem;
+		width: 18rem;
 	}
 }
 
@@ -433,13 +433,13 @@ footer p {
 		padding-right: 40px;
 	}
 	.card {
-		width: 22rem;
+		width: 18rem;
 	}
 
 }
 
 @media screen and (max-width: 400px){
 	.card {
-		width: 18rem;
+		width: 15rem;
 	}
 }
